@@ -1,7 +1,6 @@
-![alt tag](http://angularjs.org/img/AngularJS-large.png)
+![alt tag](http://img189.imageshack.us/img189/1244/y5jv.png)
 
-angular-start
+angular-start — skelton for real word angular apps.
 =============
 
 This project is an application skeleton for real world angular apps.
-![alt tag](http://url/to/img.png)
