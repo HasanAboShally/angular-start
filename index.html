@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html ng-app="ATMApp">
+<head>
+    <title>ATM Api Documentation</title>
+
+    <!-- Metas for mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="MobileOptimized" content="width" />
+
+    <!-- CDN Styles -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container" ng-view></div>
+
+    <!-- CDN Scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+    <!-- AppJS -->
+    <script src="app/app.js"></script>
+    <!-- Services -->
+    <script src="app/services/login.srv.js"></script>
+    <!-- Controllers -->
+    <script src="app/pages/login/login.ctrl.js"></script>
+    <script src="app/pages/home/home.ctrl.js"></script>
+    <script src="app/pages/user-details/user-details.ctrl.js"></script>
+
+
+</body>
+</html>
