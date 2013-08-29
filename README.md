@@ -4,3 +4,12 @@ angular-start — skelton for real word angular apps.
 =============
 
 This project is an application skeleton for real world angular apps.
+
+
+* AngularJS
+* jQuery
+* Twitter Bootstrap
+* Modernizr
+* HTML5 Template
+* LESS CSS
+* RequireJS
